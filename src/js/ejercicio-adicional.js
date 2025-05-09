@@ -1,4 +1,4 @@
-import { mostrarproductos } from "./utilArray.js"
+import { agregarNuevoProducto, eliminarMenorPrecio, mostrarproductos, ordenarMenorMayor } from "./utilArray.js"
 import { filtrarproductos } from "./utilArray.js"
 import { preciosconiva } from "./utilArray.js"
 
@@ -21,3 +21,6 @@ const productos = [
 mostrarproductos(productos);
 filtrarproductos(productos);
 preciosconiva(productos);
+ordenarMenorMayor(productos);
+agregarNuevoProducto(productos);
+eliminarMenorPrecio(productos);
